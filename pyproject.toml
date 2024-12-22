@@ -6,7 +6,7 @@ authors = ["gw <geunwoo.work@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10"
+python = ">=3.10,<4.0"
 fastapi = "^0.115.6"
 vllm = "^0.6.5"
 uvicorn = "^0.34.0"
